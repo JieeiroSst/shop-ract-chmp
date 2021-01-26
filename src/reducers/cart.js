@@ -7,8 +7,6 @@ const initalSate = data ? data : [];
 const carts = (state = initalSate, action) => {
   const { product, quantity } = action;
   let index = -1;
-  console.log(action);
-  console.log(action.type);
   switch (action.type) {
     case types.ADD_TO_CART:
       index = findProductcart(state, product);
@@ -16,7 +14,6 @@ const carts = (state = initalSate, action) => {
       if (index !== -1) {
         state[index].quantity += quantity;
       } else {
-        console.log(">>>>>>>>>>", state);
         state.push({
           product,
           quantity,
