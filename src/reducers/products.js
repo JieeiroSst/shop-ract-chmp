@@ -1,14 +1,6 @@
-const initalSate = [
-  {
-    id: 1,
-    name: "Iphone 7 plus",
-    image: "https://i.ibb.co/ncn8GhL/iphone-12-pro-gold-hero.jpg",
-    description: "dien thoai iphone",
-    price: 500,
-    inventory: 10,
-    raiting: 4,
-  },
-];
+import data from "../data/data.json";
+
+const initalSate = data;
 
 const products = (state = initalSate, action) => {
   switch (action) {

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Iphone 7 plus",
+        "image": "https://i.ibb.co/ncn8GhL/iphone-12-pro-gold-hero.jpg",
+        "description": "dien thoai iphone",
+        "price": 500,
+        "inventory": 10,
+        "raiting": 4
+      },
+      {
+        "id": 2,
+        "name": "Iphone 6 plus",
+        "image": "https://i.ibb.co/ncn8GhL/iphone-12-pro-gold-hero.jpg",
+        "description": "dien thoai iphone",
+        "price": 500,
+        "inventory": 10,
+        "raiting": 4
+      },
+      {
+        "id": 3,
+        "name": "Iphone 5 plus",
+        "image": "https://i.ibb.co/ncn8GhL/iphone-12-pro-gold-hero.jpg",
+        "description": "dien thoai iphone",
+        "price": 500,
+        "inventory": 10,
+        "raiting": 4
+      },
+      {
+        "id": 4,
+        "name": "Iphone 4 plus",
+        "image": "https://i.ibb.co/ncn8GhL/iphone-12-pro-gold-hero.jpg",
+        "description": "dien thoai iphone",
+        "price": 500,
+        "inventory": 10,
+        "raiting": 4
+      },
+      {
+        "id": 5,
+        "name": "Iphone X plus",
+        "image": "https://i.ibb.co/ncn8GhL/iphone-12-pro-gold-hero.jpg",
+        "description": "dien thoai iphone",
+        "price": 500,
+        "inventory": 10,
+        "raiting": 4
+      },
+      {
+        "id": 6,
+        "name": "Iphone XI plus",
+        "image": "https://i.ibb.co/ncn8GhL/iphone-12-pro-gold-hero.jpg",
+        "description": "dien thoai iphone",
+        "price": 500,
+        "inventory": 10,
+        "raiting": 4
+      },
+      {
+        "id": 7,
+        "name": "Iphone 9 plus",
+        "image": "https://i.ibb.co/ncn8GhL/iphone-12-pro-gold-hero.jpg",
+        "description": "dien thoai iphone",
+        "price": 500,
+        "inventory": 10,
+        "raiting": 4
+      },
+      {
+        "id": 8,
+        "name": "Iphone 8 plus",
+        "image": "https://i.ibb.co/ncn8GhL/iphone-12-pro-gold-hero.jpg",
+        "description": "dien thoai iphone",
+        "price": 500,
+        "inventory": 10,
+        "raiting": 4
+      },
+      {
+        "id": 9,
+        "name": "Iphone XX plus",
+        "image": "https://i.ibb.co/ncn8GhL/iphone-12-pro-gold-hero.jpg",
+        "description": "dien thoai iphone",
+        "price": 500,
+        "inventory": 10,
+        "raiting": 4
+      },
+      {
+        "id": 10,
+        "name": "Iphone XII plus",
+        "image": "https://i.ibb.co/ncn8GhL/iphone-12-pro-gold-hero.jpg",
+        "description": "dien thoai iphone",
+        "price": 500,
+        "inventory": 10,
+        "raiting": 4
+      }
+]
