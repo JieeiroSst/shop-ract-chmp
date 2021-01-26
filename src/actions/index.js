@@ -14,3 +14,10 @@ export const changeMesage = (message) => {
     message,
   };
 };
+
+export const removePrduct = (product) => {
+  return {
+    type: types.REMOVE_CART_PRODUCT,
+    product,
+  };
+};

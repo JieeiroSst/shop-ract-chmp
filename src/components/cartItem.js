@@ -44,12 +44,19 @@ class CartItem extends Component {
             data-placement="top"
             title=""
             data-original-title="Remove item"
+            onClick={() => this.removeProduct(item.product)}
           >
             X
           </button>
         </td>
       </tr>
     );
+  }
+
+  removeProduct(product) {
+    console.log(product);
+    const { removeProductInCart } = this.props;
+    removeProductInCart(product);
   }
 
   showQuantity = (price, quantity) => {

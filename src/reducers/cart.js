@@ -21,6 +21,13 @@ const carts = (state = initalSate, action) => {
       }
       localStorage.setItem("CART", JSON.stringify(state));
       return [...state];
+    case types.REMOVE_CART_PRODUCT:
+      index = findProductcart(state, product);
+      if (index !== -1) {
+        state.splice(index, 1);
+      }
+      localStorage.setItem("CART", JSON.stringify(state));
+      return [...state];
     default:
       return [...state];
   }

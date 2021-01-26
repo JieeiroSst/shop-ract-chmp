@@ -5,7 +5,7 @@ import Cart from "../components/cart";
 import * as types from "../constants/Message";
 import CartResult from "../components/CartResult";
 import CartItem from "../components/cartItem";
-
+import { removePrduct } from "../actions";
 class CartContainer extends Component {
   render() {
     const { cart } = this.props;
@@ -30,7 +30,14 @@ class CartContainer extends Component {
 
     if (cart.length > 0) {
       result = cart.map((item, index) => {
-        return <CartItem key={index} item={item} index={index}></CartItem>;
+        return (
+          <CartItem
+            key={index}
+            item={item}
+            index={index}
+            removeProductInCart={this.props.removeProductInCart}
+          ></CartItem>
+        );
       });
     }
     return result;
@@ -60,4 +67,12 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default connect(mapStateToProps, null)(CartContainer);
+const mapDispathToProps = (dispath, props) => {
+  return {
+    removeProductInCart: (product) => {
+      dispath(removePrduct(product));
+    },
+  };
+};
+
+export default connect(mapStateToProps, mapDispathToProps)(CartContainer);
